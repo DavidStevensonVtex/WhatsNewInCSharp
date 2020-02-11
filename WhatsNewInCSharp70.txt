@@ -1,0 +1,28 @@
+What's new in C# 7
+12/21/2016
+25 minutes to read
+Contributors
+Bill Wagner  Maira Wenzel  Ron Petrusha  Luke Latham  Petr Onderka all
+C# 7 adds a number of new features to the C# language:
+
+out variables
+You can declare out values inline as arguments to the method where they are used.
+Tuples
+You can create lightweight, unnamed types that contain multiple public fields. Compilers and IDE tools understand the semantics of these types.
+Discards
+Discards are temporary, write-only variables used in assignments when you don't care about the value assigned. They are particularly useful when deconstructing tuples and user-defined types, as well as when calling methods with out parameters.
+Pattern Matching
+You can create branching logic based on arbitrary types and values of the members of those types.
+ref locals and returns
+Method arguments and local variables can be references to other storage.
+Local Functions
+You can nest functions inside other functions to limit their scope and visibility.
+More expression-bodied members
+The list of members that can be authored using expressions has grown.
+throw Expressions
+You can throw exceptions in code constructs that previously were not allowed because throw was a statement.
+Generalized async return types
+Methods declared with the async modifier can return other types in addition to Task and Task<T>.
+Numeric literal syntax improvements
+New tokens improve readability for numeric constants.
+The remainder of this topic discusses each of the features. For each feature, you'll learn the reasoning behind it. You'll learn the syntax. You'll see some sample scenarios where using the new feature will make you more productive as a developer.

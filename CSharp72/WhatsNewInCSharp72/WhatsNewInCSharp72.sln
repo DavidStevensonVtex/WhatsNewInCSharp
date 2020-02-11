@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_ReferenceSemanticsWithValueTypes", "01_ReferenceSemanticsWithValueTypes\01_ReferenceSemanticsWithValueTypes.csproj", "{CCAB963D-DE97-4641-B639-7CD144E95FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_NonTrailingNamedArguments", "02_NonTrailingNamedArguments\02_NonTrailingNamedArguments.csproj", "{99B7B87A-5A4A-42CC-8CA0-9497000373FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_LeadingUnderscoresInNumericLiterals", "03_LeadingUnderscoresInNumericLiterals\03_LeadingUnderscoresInNumericLiterals.csproj", "{EBA7AFBF-C4F7-401A-B143-DF46297DD75C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_PrivateProtectedAccessModifier", "04_PrivateProtectedAccessModifier\04_PrivateProtectedAccessModifier.csproj", "{7D089204-22D7-4B65-A2D0-9566FC290BF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_UsePrivateProtectedAccessModifierClasses", "05_UsePrivateProtectedAccessModifierClasses\05_UsePrivateProtectedAccessModifierClasses.csproj", "{7272DBC5-2314-4556-8B95-D04D8AAFCF0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01A_ReferenceSemanticsSimplified", "01A_ReferenceSemanticsSimplified\01A_ReferenceSemanticsSimplified.csproj", "{3A8AB942-DC10-461A-AE65-61C9F405A58E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCAB963D-DE97-4641-B639-7CD144E95FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCAB963D-DE97-4641-B639-7CD144E95FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCAB963D-DE97-4641-B639-7CD144E95FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCAB963D-DE97-4641-B639-7CD144E95FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99B7B87A-5A4A-42CC-8CA0-9497000373FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99B7B87A-5A4A-42CC-8CA0-9497000373FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99B7B87A-5A4A-42CC-8CA0-9497000373FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99B7B87A-5A4A-42CC-8CA0-9497000373FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA7AFBF-C4F7-401A-B143-DF46297DD75C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA7AFBF-C4F7-401A-B143-DF46297DD75C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA7AFBF-C4F7-401A-B143-DF46297DD75C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA7AFBF-C4F7-401A-B143-DF46297DD75C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D089204-22D7-4B65-A2D0-9566FC290BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D089204-22D7-4B65-A2D0-9566FC290BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D089204-22D7-4B65-A2D0-9566FC290BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D089204-22D7-4B65-A2D0-9566FC290BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7272DBC5-2314-4556-8B95-D04D8AAFCF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7272DBC5-2314-4556-8B95-D04D8AAFCF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7272DBC5-2314-4556-8B95-D04D8AAFCF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7272DBC5-2314-4556-8B95-D04D8AAFCF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A8AB942-DC10-461A-AE65-61C9F405A58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A8AB942-DC10-461A-AE65-61C9F405A58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A8AB942-DC10-461A-AE65-61C9F405A58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A8AB942-DC10-461A-AE65-61C9F405A58E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABADC8B3-FDCB-4EF9-8605-AA81D7C04C80}
+	EndGlobalSection
+EndGlobal

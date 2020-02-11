@@ -1,0 +1,33 @@
+https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-6
+
+What's New in C# 6
+09/22/2016
+21 minutes to read
+Contributors
+Bill Wagner  mh-qUjB  Maira Wenzel  Hans De Mulder  Luke Latham all
+The 6.0 release of C# contained many features that improve productivity for developers. Features in this release include:
+
+Read-only Auto-properties:
+You can create read-only auto-properties that can be set only in constructors.
+Auto-Property Initializers:
+You can write initialization expressions to set the initial value of an auto-property.
+Expression-bodied function members:
+You can author one-line methods using lambda expressions.
+using static:
+You can import all the methods of a single class into the current namespace.
+Null - conditional operators:
+You can concisely and safely access members of an object while still checking for null with the null conditional operator.
+String Interpolation:
+You can write string formatting expressions using inline expressions instead of positional arguments.
+Exception filters:
+You can catch expressions based on properties of the exception or other program state.
+nameof Expressions:
+You can let the compiler generate string representations of symbols.
+await in catch and finally blocks:
+You can use await expressions in locations that previously disallowed them.
+index initializers:
+You can author initialization expressions for associative containers as well as sequence containers.
+Extension methods for collection initializers:
+Collection initializers can rely on accessible extension methods, in addition to member methods.
+Improved overload resolution:
+Some constructs that previously generated ambiguous method calls now resolve correctly.

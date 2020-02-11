@@ -1,0 +1,18 @@
+What's new in C# 7.1
+08/16/2017
+3 minutes to read
+Contributors
+Bill Wagner  Bader Nasser  Maira Wenzel
+C# 7.1 is the first point release to the C# language. It marks an increased release cadence for the language. You can use the new features sooner, ideally when each new feature is ready. C# 7.1 adds the ability to configure the compiler to match a specified version of the language. That enables you to separate the decision to upgrade tools from the decision to upgrade language versions.
+
+C# 7.1 adds the language version selection configuration element, three new language features and new compiler behavior.
+
+The new language features in this release are:
+
+async Main method
+The entry point for an application can have the async modifier.
+default literal expressions
+You can use default literal expressions in default value expressions when the target type can be inferred.
+Inferred tuple element names
+The names of tuple elements can be inferred from tuple initialization in many cases.
+Finally, the compiler has two options /refout and /refonly that control reference assembly generation.
